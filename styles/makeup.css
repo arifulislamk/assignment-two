@@ -9,7 +9,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 52px 127px 49px 135px;
+    margin: 52px 135px 49px 135px;
 }
 
 .left-part {
@@ -35,6 +35,7 @@ nav ul a {
 
 nav ul li:first-child a {
     color: red;
+    font-weight: 700;
 }
 
 .travel-text {
@@ -60,9 +61,56 @@ nav .img-logo {
     background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/Group\ 13\ \(1\)\ \(1\).png);
     ;
     background-repeat: no-repeat;
-    width: 1170px;
+    background-size: cover;
+    background-position: center;
+    width: 79%;
     height: 500px;
+    margin: 0 135px 100px 160px;
+    border-radius: 16px;
 }
+
+.explore-title {
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 800;
+    padding: 80px 287px 0px 287px;
+}
+
+.discription {
+    padding: 0px 247px 48px 247px;
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.input-container {
+    margin: 0px 185px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.30);
+    border-radius: 8px;
+    width: 750px;
+    height: 52px;
+}
+
+.inputbox-1,
+#when,
+#select,
+.box-4 {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.btn-1 {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+}
+/* Our Popular Tour  */
+
 
 /* Footer part styles */
 /* mobile devices 600px */
@@ -95,5 +143,9 @@ nav .img-logo {
 
     .right-part {
         display: none;
+    }
+    .banner{
+        background-position: 100%;
+        object-fit: cover;
     }
 }
