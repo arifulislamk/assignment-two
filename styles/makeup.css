@@ -176,6 +176,48 @@ nav .img-logo {
 }
 
 /* why choose us section styles  */
+.p-h2-container{
+  
+}
+.title {
+    color: #131318;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.discription- {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.two-card{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card {
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.card-title {
+    color: #131318;
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+.discription-five {
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+}
+#last-card{
+    margin: 0px 435px;
+}
 
 /* Footer part styles */
 /* mobile devices 600px */
