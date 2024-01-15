@@ -251,10 +251,9 @@ nav .img-logo {
     background: rgba(255, 255, 255, 0.80);
     backdrop-filter: blur(2.5px);
     width: 579px;
-    height: 389px;
-    /* border: 3px solid black; */
-    transform: translate(520px , -460px);
+    transform: translate(440px , -440px);
     position: relative;
+    padding: 50px;
 }
 .min-container{
     display: flex;
