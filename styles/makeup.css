@@ -3,6 +3,21 @@ body {
     font-family: 'Mulish', sans-serif;
 }
 
+.title,
+.deals-title {
+    color: #131318;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.discription {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
 .btn-1,
 .btn-two {
     width: 174px;
@@ -86,7 +101,7 @@ nav .img-logo {
     padding-left: 287px;
 }
 
-.discription {
+.discription-dolor {
     color: #FFF;
     text-align: center;
     font-size: 1rem;
@@ -147,9 +162,10 @@ nav .img-logo {
 }
 
 /* nine-img container styles  */
-.container-full{
+.container-full {
     margin: 0px 120px;
 }
+
 .Destination-title {
     color: #131318;
     text-align: center;
@@ -169,6 +185,7 @@ nav .img-logo {
     margin-top: 100px;
     margin-bottom: 48px;
 }
+
 .first-two-img,
 .second-three-img,
 .last-two-img {
@@ -180,27 +197,16 @@ nav .img-logo {
 }
 
 /* why choose us section styles  */
-.full-why-choose-section{
-  margin: 0px 135px;
-  border: 2px solid blue;
-}
-.title {
-    color: #131318;
-    text-align: center;
-    font-size: 2.5rem;
-    font-weight: 800;
+.full-why-choose-section {
+    margin: 0px 135px;
+    border: 2px solid blue;
 }
 
-.discription- {
-    color: rgba(19, 19, 24, 0.70);
-    text-align: center;
-    font-size: 1rem;
-    font-weight: 400;
-}
-.two-card{
+.two-card {
     display: flex;
     justify-content: space-evenly;
 }
+
 .card {
     width: 573px;
     height: 284px;
@@ -220,8 +226,44 @@ nav .img-logo {
     font-size: 1rem;
     font-weight: 400;
 }
-#last-card{
+
+#last-card {
     margin: 0px 435px;
+}
+
+/* <!-- Deals and Discount stylels  --> */
+.deals-full-container {
+    margin: 0px 135px;
+    border: 3px solid blue;
+    height: 670px;
+}
+
+.discription-title {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.card-satorini {
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    width: 579px;
+    height: 389px;
+    /* border: 3px solid black; */
+    transform: translate(520px , -460px);
+    position: relative;
+}
+.min-container{
+    display: flex;
+    gap: 20px;
+}
+.mini-text {
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
 }
 
 /* Footer part styles */
