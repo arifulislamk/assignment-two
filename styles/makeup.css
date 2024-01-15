@@ -1,3 +1,99 @@
-h2{
-    background-color: red;
+/* Common share styles */
+body {
+    font-family: 'Mulish', sans-serif;
+}
+
+/* Header styles  */
+/* nav styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 52px 127px 49px 135px;
+}
+
+.left-part {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 44px;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: #424247;
+    text-align: center;
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+nav ul li:first-child a {
+    color: red;
+}
+
+.travel-text {
+    color: #131318;
+    font-size: 2.25rem;
+    font-weight: 800;
+    width: 50%;
+}
+
+nav .img-logo {
+    height: 50px;
+}
+
+.travel-span {
+    color: #FF5400;
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+
+/* main part styles */
+/* Banner styles */
+.banner {
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    ;
+    background-repeat: no-repeat;
+    width: 1170px;
+    height: 500px;
+}
+
+/* Footer part styles */
+/* mobile devices 600px */
+@media screen and (max-width: 600px) {
+    body {
+        margin: 0px auto;
+    }
+
+    nav {
+        margin: 0px auto;
+        flex-direction: column;
+    }
+
+    .left-part {
+        text-align: center;
+        justify-content: center;
+    }
+
+    .img-logo {
+        width: 50px;
+    }
+
+    .travel-text {
+        margin: 0px;
+    }
+
+    .right-part {
+        flex-direction: column;
+    }
+
+    .right-part {
+        display: none;
+    }
 }
