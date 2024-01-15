@@ -75,17 +75,18 @@ nav .img-logo {
     height: 500px;
     margin: 0 135px 100px 160px;
     border-radius: 16px;
+    border: 3px solid blue;
 }
 
 .explore-title {
+    padding-top: 50px;
     color: #FFF;
     font-size: 4rem;
     font-weight: 800;
-    padding: 80px 287px 0px 287px;
+    padding-left: 287px;
 }
 
 .discription {
-    padding: 0px 247px 48px 247px;
     color: #FFF;
     text-align: center;
     font-size: 1rem;
@@ -93,12 +94,12 @@ nav .img-logo {
 }
 
 .input-container {
-    margin: 0px 185px;
     padding: 10px;
+    margin-top: 48px;
+    margin-left: 230px;
     background: rgba(255, 255, 255, 0.30);
     border-radius: 8px;
     width: 750px;
-    height: 52px;
 }
 
 .inputbox-1,
@@ -115,6 +116,9 @@ nav .img-logo {
 .our-popular-tour {
     display: flex;
     justify-content: space-evenly;
+    /* margin: 0px 135px; */
+
+    border: 3px solid blue;
 }
 
 .text-content {
@@ -143,6 +147,9 @@ nav .img-logo {
 }
 
 /* nine-img container styles  */
+.container-full{
+    margin: 0px 120px;
+}
 .Destination-title {
     color: #131318;
     text-align: center;
@@ -162,22 +169,20 @@ nav .img-logo {
     margin-top: 100px;
     margin-bottom: 48px;
 }
-
-.img-and-container-full {
-    margin: 0px 135px;
-}
-
 .first-two-img,
 .second-three-img,
 .last-two-img {
     display: flex;
-    gap: 24px;
-    margin-bottom: 24px;
+    /* gap: 24px; */
+    margin-bottom: 16px;
+    justify-content: center;
+    gap: 15px;
 }
 
 /* why choose us section styles  */
-.p-h2-container{
-  
+.full-why-choose-section{
+  margin: 0px 135px;
+  border: 2px solid blue;
 }
 .title {
     color: #131318;
