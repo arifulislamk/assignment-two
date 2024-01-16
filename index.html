@@ -17,8 +17,8 @@
 </head>
 
 <body>
-    <header>
-        <nav>
+    <header class="">
+        <nav class="">
             <div class="left-part">
                 <div class="img-logo"><img src="./Images/Group 40071 (2).png" alt=""></div>
                 <h2 class="travel-text">Our <span class="travel-span">Travel</span></h2>
@@ -31,14 +31,17 @@
                     <li><a href="">Blog</a> </li>
                     <li><a href="">Contact</a></li>
                 </ul>
+                <div class="show-on-mobile">X</div>
             </div>
         </nav>
         <div class="banner">
-            <h2 class="explore-title">Explore Your Travel</h2>
-            <p class="discription-dolor">Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor
-                adipiscing. In
-                et odio <br> enim ac quis
-                sapien urna eu phasellus.</p>
+            <div class="text-discrip">
+                <h2 class="explore-title">Explore Your Travel</h2>
+                <p class="discription-dolor">Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor
+                    adipiscing. In
+                    et odio <br> enim ac quis
+                    sapien urna eu phasellus.</p>
+            </div>
             <div class="input-container">
                 <input class="inputbox-1" placeholder="Where go" type="text">
                 <select name="" id="when">
@@ -86,17 +89,31 @@
             </div>
             <div class="nine-img-container">
                 <div class="first-two-img">
-                    <img src="./Images/Rectangle 5.png" alt="" id="img-1" class="img">
-                    <img src="./Images/Rectangle 8.png" alt="" id="img-2" class="img">
+                    <div class="img">
+                        <img src="./Images/Rectangle 5.png" alt="" id="img-1" class="img">
+                    </div>
+                    <div class="img">
+                        <img src="./Images/Rectangle 8.png" alt="" id="img-2" class="img">
+                    </div>
                 </div>
                 <div class="second-three-img">
-                    <img src="./Images/Rectangle 6.png" alt="" id="img-3" class="img">
-                    <img src="./Images/Rectangle 7.png" alt="" id="img-4" class="img">
-                    <img src="./Images/Rectangle 9.png" alt="" id="img-5" class="img">
+                    <div class="img-1">
+                        <img src="./Images/Rectangle 6.png" alt="" id="img-3" class="img">
+                    </div>
+                    <div class="img-2">
+                        <img src="./Images/Rectangle 7.png" alt="" id="img-4" class="img">
+                    </div>
+                    <div class="img-3">
+                        <img src="./Images/Rectangle 9.png" alt="" id="img-5" class="img">
+                    </div>
                 </div>
                 <div class="last-two-img">
-                    <img src="./Images/Rectangle 11.png" alt="" id="img-6" class="img">
-                    <img src="./Images/Rectangle 10.png" alt="" id="img-7" class="img">
+                    <div class="img-1">
+                        <img src="./Images/Rectangle 11.png" alt="" id="img-6" class="img">
+                    </div>
+                    <div class="img-2">
+                        <img src="./Images/Rectangle 10.png" alt="" id="img-7" class="img">
+                    </div>
                 </div>
             </div>
         </section>
@@ -125,12 +142,14 @@
                         aliquet. </p>
                 </div>
             </div>
-            <div id="last-card" class="card">
-                <img src="./Images/hotel.png" alt="">
-                <h2 class="card-title">Best Price Guarantee</h2>
-                <p class="discription-five">Amet consectetur. Vulputate commodo felis molestie risus ornare nulla amet
-                    et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet.
-                </p>
+            <div id="last-card">
+                <div class="card">
+                    <img src="./Images/hotel.png" alt="">
+                    <h2 class="card-title">Best Price Guarantee</h2>
+                    <p class="discription-five">Amet consectetur. Vulputate commodo felis molestie risus ornare nulla amet
+                        et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet.
+                    </p>
+                </div>
             </div>
         </section>
 
@@ -200,7 +219,7 @@
         </div>
 
         <!-- A simple perfect place get lost html sectionn  -->
-        <section>
+        <section class="">
             <div class="simple-full-container">
                 <div class="content-text">
                     <h2 class="simpe-title">A Simple Perfect Place<br> To Get Lost</h2>
@@ -225,7 +244,7 @@
         </section>
 
         <!-- newsletter html full section  -->
-        <section>
+        <section class="hide">
             <div class="newsletter-full-container">
                 <div class="newstext-container">
                     <h2 class="news-title">Newsletter</h2>
@@ -234,29 +253,30 @@
                     <input placeholder="Enter your email" type="text"> <br> <br>
                     <button>Subscribe</button>
                 </div>
-                <div>
+                <div class="news-image">
                     <img src="./Images/Rectangle 8 (1).png" alt="">
                 </div>
             </div>
-            <div class="translate-travel">
+            <div class="translate-travel hide">
                 <h3>Travel.com</h3>
                 <h2>Save up to 70%</h2>
             </div>
         </section>
 
     </main>
-    <footer>
+    <footer class="hide">
         <div class="last-flex ">
             <img src="./Images/Group 40071 (2).png" alt="">
             <h2 class="travel-text">Hero <span class="travel-span">Travel</span></h2>
         </div>
-        <p class="discription-eight">Lorem ipsum dolor sit amet consectetur. Nulla sit viverra morbi vitae blandit orci potenti vulputate. Leo <br>
+        <p class="discription-eight">Lorem ipsum dolor sit amet consectetur. Nulla sit viverra morbi vitae blandit orci
+            potenti vulputate. Leo <br>
             erat maecenas vitae elementum ultricies nullam. </p>
-        <div>
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-github"></i>
+        <div class="abc">
+            <i class="fa-brands fa-twitter abc"></i>
+            <i class="fa-brands fa-facebook abc"></i>
+            <i class="fa-brands fa-instagram abc"></i>
+            <i class="fa-brands fa-github abc"></i>
         </div>
         <p>2017, All Rights Reserved.</p>
     </footer>
