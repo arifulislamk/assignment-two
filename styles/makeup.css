@@ -431,6 +431,9 @@ footer {
     display: flex;
     justify-content: center;
 }
+.last-flex img{
+    width: 5% ;
+}
 
 .hide {
     display: none;
@@ -593,6 +596,22 @@ footer {
         border-radius: 16px;
         background: #FF5400;
     }
+    footer {
+        background: rgba(19, 19, 24, 0.05);
+        margin: 0;
+        text-align: center;
+        border: 3px solid blue;
+        width: 100%;
+    }
+    
+    .last-flex {
+        display: flex;
+        justify-content: center;
+    }
+    .last-flex img{
+        width: 5% ;
+    }
+    
     
 }
 
