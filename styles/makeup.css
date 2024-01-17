@@ -6,15 +6,13 @@ body {
 header,
 main {
     width: 80%;
-    margin: 0 auto;
-    overflow: hidden;
+    margin: 10px auto;
 }
 
 img {
     width: 100%;
 }
 
-/* *{border: 1px solid red;} */
 .title,
 .deals-title {
     color: #131318;
@@ -82,10 +80,6 @@ nav ul li:first-child a {
     font-weight: 800;
 }
 
-/* nav .img-logo {
-    height: 50px;
-} */
-
 .travel-span {
     color: #FF5400;
     font-size: 2.25rem;
@@ -99,22 +93,25 @@ nav ul li:first-child a {
     ;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 80vh;
     background-position: center;
-    height: 90vh;
+    /* height: 90vh; */
     border-radius: 16px;
     margin: 0 auto 100px auto;
+
 }
 
 .text-discrip {
     text-align: center;
-    padding: 20px;
+    padding-top: 110px;
 }
 
 .explore-title {
-    padding-top: 50px;
     color: #FFF;
     font-size: 4rem;
     font-weight: 800;
+    margin: 0 auto;
+    margin-bottom: 24px;
 }
 
 .discription-dolor {
@@ -122,6 +119,8 @@ nav ul li:first-child a {
     text-align: center;
     font-size: 1rem;
     font-weight: 400;
+    margin: 0 auto;
+    margin-bottom: 48px;
 }
 
 .input-container {
@@ -151,7 +150,6 @@ nav ul li:first-child a {
 .our-popular-tour {
     display: flex;
     justify-content: space-between;
-    /* margin: 0px 135px; */
 }
 
 .text-content {
@@ -187,27 +185,23 @@ nav ul li:first-child a {
 }
 
 /* nine-img container styles  */
-
+.destinationa-peragrap {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 48px;
+}
 .Destination-title {
     color: #131318;
     text-align: center;
     font-size: 2.5rem;
     font-weight: 800;
 }
-
 .discrition-four {
     color: rgba(19, 19, 24, 0.70);
     text-align: center;
     font-size: 1rem;
     font-weight: 400;
 }
-
-.destinationa-peragrap {
-    text-align: center;
-    margin-top: 100px;
-    margin-bottom: 48px;
-}
-
 .first-two-img,
 .second-three-img,
 .last-two-img {
@@ -260,6 +254,7 @@ nav ul li:first-child a {
     border: 1px solid rgba(41, 206, 246, 0.20);
     background: rgba(41, 206, 246, 0.05);
     padding: 32px;
+    border: 10px solid yellow;
 }
 .card img {
     width: 64px;
@@ -367,7 +362,7 @@ nav ul li:first-child a {
 }
 
 .transform-title {
-    transform: translate(850px, -300px);
+    transform: translate(780px, -300px);
     position: relative;
     width: fit-content;
     color: #FFF;
@@ -386,7 +381,8 @@ nav ul li:first-child a {
 .newstext-container {
     border: 1px solid #FF5400;
     border-radius: 8px;
-    padding: 32px;
+    padding: 10px;
+    width: 40%;
 }
 .news-image {
     width: 58%;
@@ -396,6 +392,10 @@ nav ul li:first-child a {
     color: #131318;
     font-size: 24px;
     font-weight: 800;
+    width: 80%;
+}
+.discription-news{
+    width: 80%;
 }
 
 section .newsletter-full-container input {
@@ -408,11 +408,9 @@ section .newsletter-full-container input {
 
 .translate-travel {
     transform: rotate(-30deg);
-    translate: 950px -240px;
+    translate: 800px -240px;
     position: relative;
     width: fit-content;
-    width: 324px;
-    height: 150px;
     color: #FFF;
     text-align: center;
     font-size: 1.5rem;
@@ -427,6 +425,12 @@ footer {
     margin: 0 auto;
     text-align: center;
 }
+.discription-footer{
+    color: #5A5A5D;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
 
 .last-flex {
     display: flex;
@@ -434,6 +438,12 @@ footer {
 }
 .last-flex img{
     width: 5% ;
+    height: 8vh;
+    margin-top: 20px;
+}
+.abc{
+    margin-right: 50px;
+
 }
 
 .hide {
@@ -457,22 +467,25 @@ footer {
 
     .banner {
         width: 100%;
+        height: 130vh;
     }
 
     .explore-title {
         font-size: 1.5rem;
-        padding: 32px 0 0px 0;
+        padding: 10px 0 0px 0;
     }
-
+    .discription-dolor {
+        margin-bottom: 0px;
+    }
     .text-discrip {
         padding: 0px;
         font-size: 0.9rem;
-        padding: 0px 15px 32px 15px;
+        padding: 0px 15px 0px 15px;
     }
 
     .input-container {
         width: 70%;
-        padding: 20px;
+        padding: 10px;
         flex-direction: column;
         margin: 0 auto;
     }
@@ -498,7 +511,7 @@ footer {
     }
 
     .text-content {
-        width: 100% !important;
+        width: 100% ;
     }
 
     .first-two-img,
@@ -536,7 +549,7 @@ footer {
         gap: 0;
     }
     .card {
-        width: 100%;
+        width: 70%;
         padding: 16px;
         height: auto;
         margin-bottom: 16px;
@@ -568,6 +581,12 @@ footer {
     .img40089 {
         width: 100%;
     }
+    .transform-title {
+        transform: translate(10px, -300px);
+        width: 50%;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
     .newsletter-full-container {
         flex-direction: column;
     }
@@ -575,28 +594,18 @@ footer {
     .newstext-container {
         padding: 16px;
         margin-bottom: 16px;
-        width: 100%;
+        width: 80%;
     }
     .news-image {
         width: 100%;
     }
     section .newsletter-full-container input {
-        width: 90%;
+        width: 200px;
+        height: 45px;
+        margin-bottom: 10px;
     }
-    
     .translate-travel {
-        transform: rotate(-30deg);
-        translate: 0px 0px;
-        position: relative;
-        width: fit-content;
-        width: 324px;
-        height: 150px;
-        color: #FFF;
-        text-align: center;
-        font-size: 1.5rem;
-        font-weight: 700;
-        border-radius: 16px;
-        background: #FF5400;
+        display: none;
     }
     footer {
         background: rgba(19, 19, 24, 0.05);
