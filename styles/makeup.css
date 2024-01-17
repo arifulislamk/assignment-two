@@ -254,7 +254,6 @@ nav ul li:first-child a {
     border: 1px solid rgba(41, 206, 246, 0.20);
     background: rgba(41, 206, 246, 0.05);
     padding: 32px;
-    border: 10px solid yellow;
 }
 .card img {
     width: 64px;
