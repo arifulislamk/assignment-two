@@ -418,22 +418,12 @@ nav ul li:first-child a {
     font-size: 1.5rem;
     font-weight: 700;
 }
-
-/* .transform-title {
-    transform: translate(780px, -300px);
-    position: relative;
-    width: fit-content;
-    color: #FFF;
-    text-align: center;
-    font-size: 1.5rem;
-    font-weight: 700;
-} */
-
 /* <!-- newsletter html full section   */
 .newsletter-full-container {
     display: flex;
     justify-content: space-between;
     position: relative;
+    margin-top: 110px;
 }
 
 .newstext-container {
