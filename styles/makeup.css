@@ -257,10 +257,30 @@ nav ul li:first-child a {
 
 .last-two-img .img-1 {
     width: 40%;
+    position: relative;
+}
+
+.ban-3 {
+    top: 120px;
+    left: 150px;
+    position: absolute;
+    color: #FFF;
+    font-size: 1.8rem;
+    font-weight: 800;
 }
 
 .last-two-img .img-2 {
     width: 58%;
+    position: relative;
+}
+
+.bandarban-3 {
+    top: 120px;
+    left: 230px;
+    position: absolute;
+    color: #FFF;
+    font-size: 1.8rem;
+    font-weight: 800;
 }
 
 /* why choose us section styles  */
@@ -563,12 +583,14 @@ footer {
         font-size: 1.2rem;
         font-weight: 700;
     }
+
     .place-2 {
         top: 70px;
         left: 100px;
         font-size: 1.2rem;
         font-weight: 700;
     }
+
     .second-three-img .img-1,
     .second-three-img .img-2,
     .second-three-img .img-3 {
@@ -579,8 +601,21 @@ footer {
         width: 100%;
     }
 
+    .ban-3 {
+        top: 80px;
+        left: 100px;
+        font-size: 1.2rem;
+        font-weight: 700;
+    }
+
     .last-two-img .img-2 {
         width: 100%;
+    }
+    .bandarban-3 {
+        top: 30px;
+        left: 100px;
+        font-size: 1.2rem;
+        font-weight: 700;
     }
 
     .two-card {
